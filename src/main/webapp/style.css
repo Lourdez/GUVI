@@ -1,0 +1,90 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Define a container for your content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header section */
+.header {
+  background-color: #040f09;
+  color: #050303;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 1.5em;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar a:hover {
+  color: #0074d9;
+}
+
+/* Style the main content section */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer section */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style your headings and paragraphs */
+h1, h2, h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Add additional styles as needed for your specific content */
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+}
